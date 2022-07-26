@@ -1,8 +1,7 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
-  title: "chendashi",
-  description: "123",
+  title: "陈大事的开发日记",
   lang: "zh-CN",
 
   themeConfig: {
@@ -40,46 +39,7 @@ export default defineConfig({
     nav: [
       { text: "组件", link: "/myComponents/", activeMatch: "/myComponents/" },
       { text: "博客", link: "/blog/", activeMatch: "/blog/" },
-      { text: "插件", link: "/plugins/", activeMatch: "/plugins/" },
-      {
-        text: "相关链接",
-        items: [
-          { text: "Team", link: "/team" },
-          {
-            text: "Twitter",
-            link: "https://twitter.com/vite_js",
-          },
-          {
-            text: "Discord Chat",
-            link: "https://chat.vitejs.dev",
-          },
-          {
-            text: "Awesome Vite",
-            link: "https://github.com/vitejs/awesome-vite",
-          },
-          {
-            text: "Dev.to 社区",
-            link: "https://dev.to/t/vite",
-          },
-          {
-            text: "Rollup 插件兼容",
-            link: "https://vite-rollup-plugins.patak.dev/",
-          },
-          {
-            text: "更新日志",
-            link: "https://github.com/vitejs/vite/blob/main/packages/vite/CHANGELOG.md",
-          },
-        ],
-      },
-      {
-        text: "Version",
-        items: [
-          {
-            text: "Vite v2 文档",
-            link: "https://v2.vitejs.dev",
-          },
-        ],
-      },
+      { text: "琐碎", link: "/records/", activeMatch: "/records/" },
     ],
 
     sidebar: {
@@ -91,6 +51,10 @@ export default defineConfig({
               text: "vue2-pro-table",
               link: "/myComponents/vue2-pro-table/index",
             },
+            {
+              text: "el-vue-tree-select",
+              link: "/myComponents/el-vue-tree-select/index",
+            },
           ],
         },
       ],
@@ -101,6 +65,17 @@ export default defineConfig({
             {
               text: "v-model",
               link: "/blog/v-model",
+            },
+          ],
+        },
+      ],
+      "/records/": [
+        {
+          text: "琐碎",
+          items: [
+            {
+              // text: "v-model",
+              link: "/records/",
             },
           ],
         },
