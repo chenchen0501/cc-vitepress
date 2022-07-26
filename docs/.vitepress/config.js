@@ -27,9 +27,9 @@ export default defineConfig({
     //   placement: "vitejsdev",
     // },
 
-    localeLinks: {
-      text: "简体中文",
-    },
+    // localeLinks: {
+    //   text: "简体中文",
+    // },
 
     // footer: {
     //   message: "根据 MIT 许可证发布。",
