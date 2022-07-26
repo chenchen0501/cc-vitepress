@@ -40,6 +40,9 @@ export default defineConfig({
       { text: "组件", link: "/myComponents/", activeMatch: "/myComponents/" },
       { text: "博客", link: "/blog/", activeMatch: "/blog/" },
       { text: "琐碎", link: "/records/", activeMatch: "/records/" },
+      { text: "脚手架集", link: "/frames/", activeMatch: "/frames/" },
+      { text: "工具箱", link: "/tools/", activeMatch: "/tools/" },
+      // { text: "前端哲学", link: "/records/", activeMatch: "/records/" },
     ],
 
     sidebar: {
@@ -76,6 +79,28 @@ export default defineConfig({
             {
               // text: "v-model",
               link: "/records/",
+            },
+          ],
+        },
+      ],
+      "/frames/": [
+        {
+          text: "脚手架集",
+          items: [
+            {
+              // text: "v-model",
+              link: "/frames/",
+            },
+          ],
+        },
+      ],
+      "/tools/": [
+        {
+          text: "工具箱",
+          items: [
+            {
+              // text: "v-model",
+              link: "/tools/",
             },
           ],
         },
