@@ -69,6 +69,10 @@ export default defineConfig({
               text: "v-model",
               link: "/blog/v-model",
             },
+            {
+              text: "localStorage",
+              link: "/blog/localStorage",
+            },
           ],
         },
       ],
@@ -99,8 +103,36 @@ export default defineConfig({
           text: "工具箱",
           items: [
             {
-              // text: "v-model",
-              link: "/tools/",
+              text: "v-permission",
+              link: "/tools/v-permission",
+            },
+            {
+              text: "v-loadmore",
+              link: "/tools/v-loadmore",
+            },
+            {
+              text: "axios拦截器",
+              link: "/tools/axios拦截器",
+            },
+            {
+              text: "日期转换",
+              link: "/tools/日期转换",
+            },
+            {
+              text: "localStorage",
+              link: "/tools/localStorage",
+            },
+            {
+              text: "文件下载",
+              link: "/tools/文件下载",
+            },
+            {
+              text: "jsconfig",
+              link: "/tools/jsconfig",
+            },
+            {
+              text: "图片压缩",
+              link: "/tools/图片压缩",
             },
           ],
         },
