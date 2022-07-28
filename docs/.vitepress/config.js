@@ -81,8 +81,12 @@ export default defineConfig({
           text: "琐碎",
           items: [
             {
-              // text: "v-model",
-              link: "/records/",
+              text: "解决方案",
+              link: "/records/解决方案",
+            },
+            {
+              text: "概念",
+              link: "/records/概念",
             },
           ],
         },
@@ -102,6 +106,10 @@ export default defineConfig({
         {
           text: "工具箱",
           items: [
+            {
+              text: "类型检测",
+              link: "/tools/类型检测",
+            },
             {
               text: "v-permission",
               link: "/tools/v-permission",
