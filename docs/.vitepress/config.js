@@ -96,8 +96,8 @@ export default defineConfig({
           text: "脚手架集",
           items: [
             {
-              // text: "v-model",
-              link: "/frames/",
+              text: "vue3相关",
+              link: "/frames/vue3",
             },
           ],
         },
