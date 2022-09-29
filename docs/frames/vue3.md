@@ -11,7 +11,7 @@ git clone https://gitee.com/chencdashi/vite-vue3-pnpm-cli.git
   ![首页](./../imgs/frames-vue3-mobile-2.png)
   ![导航](./../imgs/frames-vue3-mobile-3.png)
 
-  1. 技术栈
+  2. 技术栈
   - vue-router
     - 路由守卫
   - vuex

@@ -107,6 +107,10 @@ export default defineConfig({
           text: "工具箱",
           items: [
             {
+              text: "前端导出",
+              link: "/tools/前端导出",
+            },
+            {
               text: "类型检测",
               link: "/tools/类型检测",
             },
