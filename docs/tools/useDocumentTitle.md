@@ -2,7 +2,7 @@
 
 ## 库
 
-```js
+```js {10}
 import { watch } from "vue";
 import { useRoute } from "vue-router";
 
@@ -18,3 +18,6 @@ export const useDocumentTitle = () => {
 
 ```
 
+::: tip
+meta.title 需要在router中定义
+:::
