@@ -107,6 +107,10 @@ export default defineConfig({
           text: "工具箱",
           items: [
             {
+              text: "useDocumentTitle",
+              link: "/tools/useDocumentTitle",
+            },
+            {
               text: "前端导出",
               link: "/tools/前端导出",
             },
