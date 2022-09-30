@@ -107,6 +107,10 @@ export default defineConfig({
           text: "工具箱",
           items: [
             {
+              text: "useList(vant3)",
+              link: "/tools/useList(vant3)",
+            },
+            {
               text: "useDocumentTitle",
               link: "/tools/useDocumentTitle",
             },
