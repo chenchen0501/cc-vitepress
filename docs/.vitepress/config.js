@@ -107,6 +107,10 @@ export default defineConfig({
           text: "工具箱",
           items: [
             {
+              text: "加密解密",
+              link: "/tools/加密解密",
+            },
+            {
               text: "useList(vant3)",
               link: "/tools/useList(vant3)",
             },
