@@ -81,6 +81,10 @@ export default defineConfig({
           text: "琐碎",
           items: [
             {
+              text: "纯css实现loading",
+              link: "/records/loading",
+            },
+            {
               text: "解决方案",
               link: "/records/解决方案",
             },
