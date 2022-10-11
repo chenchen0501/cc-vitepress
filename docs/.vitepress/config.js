@@ -81,6 +81,14 @@ export default defineConfig({
           text: "琐碎",
           items: [
             {
+              text: "移动端适配",
+              link: "/records/移动端适配",
+            },
+            {
+              text: "css进阶",
+              link: "/records/css进阶",
+            },
+            {
               text: "纯css实现loading",
               link: "/records/loading",
             },
